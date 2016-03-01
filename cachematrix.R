@@ -3,6 +3,9 @@
 
 ## Write a short comment describing this function
 
+# sample starting matrix 
+# > mymatrix <- matrix(rnorm(1:16),4,4)
+
 makeCacheMatrix <- function(x = matrix()) {
   inputClass <- class(x)
   if(inputClass[1] != 'matrix')  {
@@ -21,7 +24,8 @@ makeCacheMatrix <- function(x = matrix()) {
 #        getmean = getmean)
   cache <<- x
   isInverted <<- FALSE
-  cache
+  print("matrix stored in parent environment variable 'cache'")
+  #cache
   #invisible()
 }
 
