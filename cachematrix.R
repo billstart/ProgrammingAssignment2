@@ -4,7 +4,7 @@
 ## Write a short comment describing this function
 
 # sample starting matrix 
-# > mymatrix <- matrix(rnorm(1:16),4,4)
+# > mymatrix <- matrix(rnorm(16),4,4)
 
 makeCacheMatrix <- function(x = matrix()) {
   inputClass <- class(x)
